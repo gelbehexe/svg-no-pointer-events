@@ -1,0 +1,32 @@
+{
+  "name": "@gelbehexe/svg-no-pointer-events",
+  "version": "1.0.0",
+  "description": "Simply adds css to disable svg-pointer-events",
+  "main": "src/index",
+  "scripts": {
+    "prepublishOnly": "node scripts/build.js"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "Deborah White <deborah.white1503@icloud.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "clean-css": "^5.1.2",
+    "postcss": "^8.2.15",
+    "tailwindcss": "*"
+  }
+}
